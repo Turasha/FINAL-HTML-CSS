@@ -54,6 +54,24 @@ display: flex;
     border-radius: 15px;
     font-weight: 700;
 }
+.bar-ul{
+    background-color:rgba(6, 102, 11, 0.5);
+    display: none;
+}
+.bar-ul-on{
+    display: block;
+}
+.burger-ul{
+    text-align: center;
+    margin-right: 3%;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
 @media(max-width:775px){
     .header-nav{
         display: none;
@@ -62,7 +80,7 @@ display: flex;
         width: 100%;
     }
 }
-@media(max-width:375px){
+@media(max-width:480px){
     .verification{
         display: none;
     }
@@ -106,9 +124,10 @@ display: flex;
 }
 .section1-main h1{
     color: white;
-    font-size: 65px;
+    font-size: 55px;
     max-width: 597px;
     margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
 }
 .section1-main p{
     color: white;
@@ -167,6 +186,7 @@ display: flex;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
 }
 .section2-info p{
     font-size: 20px;
@@ -454,7 +474,8 @@ display: flex;
 .sec5-info3 :first-child{
     color: white;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 300;
+    font-family: "Adamina", serif;
 }
 @media(max-width:744px){
     .section5-main{
